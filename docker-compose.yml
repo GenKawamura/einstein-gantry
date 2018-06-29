@@ -1,0 +1,12 @@
+version: "2.0"
+
+services:
+ # Einstein toolkit
+ einsteintoolkit-docker.ubuntu16:
+  build: einsteintoolkit-docker.ubuntu16
+  image: einsteintoolkit/eins.ubuntu16
+
+ #einsteintoolkit-docker.el6:
+ # build: einsteintoolkit-docker.el6
+ # image: einsteintoolkit/eins.el6
+
